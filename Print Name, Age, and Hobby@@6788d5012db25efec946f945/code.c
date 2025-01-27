@@ -3,9 +3,9 @@ int main(){
     char name[30];
     int age;
     char hobby[30];
-    scanf("%c %d %c",&name,&age,&hobby);
-    printf("Name: %c\n",name);
-    printf("Age: %d\n",age);
-    printf("Hobby: %c\n",hobby);
+    scanf("%s %d %s",&name,&age,&hobby);
+    printf("Name: %s\n",name);
+    printf("Age: %s\n",age);
+    printf("Hobby: %s\n",hobby);
     return 0;
 }
