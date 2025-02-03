@@ -10,5 +10,7 @@ int main(){
     printf("%c",a);
     else if (a>=60 && a<70)
     printf("%c",a);
-    
+    else 
+    printf("%c",a);
+    return 0;
 }
