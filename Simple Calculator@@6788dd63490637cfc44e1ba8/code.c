@@ -2,9 +2,9 @@
 int main(){
     int a,b,sum,div,sub,multiply;
     scanf("%d %d",&a,&b);
-    char operator;
-    scanf("%c",&operator);
-    switch(operator){
+    char ope;
+    scanf("%c",&ope);
+    switch(ope){
         case '+':
         sum=a+b;
         printf("%d\n",sum);
