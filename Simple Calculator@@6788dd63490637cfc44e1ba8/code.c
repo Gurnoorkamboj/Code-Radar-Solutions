@@ -24,4 +24,5 @@ int main(){
         default:
         printf("Error\n");
     }
+    return 0;
 }
