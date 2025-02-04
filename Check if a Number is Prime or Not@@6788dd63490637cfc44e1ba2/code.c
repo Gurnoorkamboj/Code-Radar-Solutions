@@ -4,7 +4,7 @@ int main(){
     scanf("%d",&j);
     for (i=1;i<=j;i++)
     {
-        if (i%j==0)
+        if (j%i==0)
         count++;
     }
     if (count==2)
