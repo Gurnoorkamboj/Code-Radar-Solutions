@@ -13,7 +13,7 @@ int main(){
             printf("Wednesday");
             break;
         case 4:
-            printf("Thrusday");
+            printf("Thursday");
             break;
         case 5:
             printf("Friday");
