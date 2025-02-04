@@ -21,7 +21,7 @@ int main(){
         div=a/b;
         printf("%d\n",div);
         break;
-        default;
+        default:
         printf("Error\n");
     }
 }
