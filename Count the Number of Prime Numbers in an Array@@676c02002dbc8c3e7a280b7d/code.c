@@ -11,7 +11,7 @@ int main(){
     {
         for(k=0;k<j;k++)
         {
-            if(j%k==0)
+            if(k%j==0)
             count=count+1;
         }
     }
