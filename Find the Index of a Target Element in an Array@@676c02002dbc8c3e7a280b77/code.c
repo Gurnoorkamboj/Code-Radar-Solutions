@@ -4,10 +4,10 @@ int main(){
     scanf("%d",&i);
     int arr[i];
     for(j=0;j<i;j++)
-    scanf("%d",&a[j]);
+    scanf("%d",&arr[j]);
     int t,num;
     t=j;
-    num=a[t];
+    num=arr[t];
     printf("%d",num);
     
 }
