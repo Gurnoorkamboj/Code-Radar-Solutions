@@ -7,7 +7,9 @@ int main(){
     scanf("%d",&arr[j]);
     int t,num;
     t=j;
+    for(j=0;j<i;j++){
     num=arr[t];
+    }
     printf("%d",num);
     
 }
