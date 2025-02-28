@@ -10,11 +10,11 @@ int main(){
         if(arr[j]>arr[j-1]){
             max=arr[j];
         }
-        else
-        {
-            min=arr[j];
-        }
+        // else
+        // {
+        //     min=arr[j];
+        // }
     }   
-    printf("%d %d",max,min);
+    printf("%d",max);
     return 0;
 }
