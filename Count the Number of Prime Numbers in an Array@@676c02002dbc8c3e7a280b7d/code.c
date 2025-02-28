@@ -11,7 +11,7 @@ int main(){
     {
         for(k=0;k<j;k++)
         {
-            if(k%j==0)
+            if(arr[j]%k==0)
             count=count+1;
         }
     }
