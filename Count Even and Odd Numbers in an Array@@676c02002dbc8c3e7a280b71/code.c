@@ -8,11 +8,11 @@ int main(){
     }
     for (j=0;j<i;j++)
     {
-        if (a[j]%2==0);
+        if (a[j]%2==0)
         even=even+1;
         else
         odd=odd+1;
     }
-    printf("%d %d",even,count);
+    printf("%d %d",even,odd);
     return 0;
 }
