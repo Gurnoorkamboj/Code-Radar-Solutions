@@ -8,7 +8,7 @@ int main(){
     }
     for (j=1;j<i;j++)
     {
-        if (a[i]%2==0)
+        if (a[j]%2==0)
         even=even+1;
         else
         odd=odd+1;
