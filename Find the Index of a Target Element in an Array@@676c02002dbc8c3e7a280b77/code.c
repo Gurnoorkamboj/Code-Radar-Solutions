@@ -5,11 +5,9 @@ int main(){
     int arr[i];
     for(j=0;j<i;j++)
     scanf("%d",&arr[j]);
-    int t,num;
-    t=j;
-    for(j=0;j<i;j++){
-    num=arr[t];
-    }
+    int t,num=0;
+    scanf("%d",&t);
+    num=arr[j];
     printf("%d",num);
-    
+    return 0;
 }
