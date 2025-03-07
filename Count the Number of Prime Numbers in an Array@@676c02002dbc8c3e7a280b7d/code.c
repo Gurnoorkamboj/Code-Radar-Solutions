@@ -2,7 +2,7 @@
 int main(){
     int i,j,k,count=0;
     scanf("%d",&i);
-    int arr[i];
+    int arr[i],primecount=0;
     for (j=0;j<i;j++)
     {
         scanf("%d",&arr[j]);
@@ -16,6 +16,7 @@ int main(){
         }
     }
     if (count==2)
-    printf("%d",count);
+    primecount=primecount+1;
+    printf("%d",primecount);
     return 0;   
 }
