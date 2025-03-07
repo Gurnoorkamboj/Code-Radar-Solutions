@@ -13,5 +13,7 @@ int main(){
     }
     if (sum==arr[i])
     printf("Yes");
+    else
+    printf("No")
     return 0;
 }
