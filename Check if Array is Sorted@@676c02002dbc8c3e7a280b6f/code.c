@@ -10,8 +10,6 @@ int main(){
         if(arr[j-1]<=arr[j])
     }
     printf("Sorted");
-    
-    
     return 0;
     
 }
