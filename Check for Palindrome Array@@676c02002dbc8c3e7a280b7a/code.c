@@ -11,5 +11,7 @@ int main(){
     {
         sum=arr[i];
     }
+    if (sum==arr[j])
+    printf("Yes");
     return 0;
 }
