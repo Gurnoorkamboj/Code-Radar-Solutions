@@ -9,7 +9,7 @@ int main(){
     }
     for(i=n;i>0;i--)
     {
-        sum=arr[j];
+        sum=arr[i];
     }
     return 0;
 }
