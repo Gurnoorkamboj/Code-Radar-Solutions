@@ -15,8 +15,10 @@ int main(){
             count=count+1;
         }
     }
-    if (count==2)
-    primecount=primecount+1;
-    printf("%d",primecount);
+        if (count==2)
+        {
+        primecount=primecount+1;
+        printf("%d",primecount);
+        }
     return 0;   
 }
