@@ -11,4 +11,5 @@ int main(){
     {
         sum=arr[j];
     }
+    return 0;
 }
