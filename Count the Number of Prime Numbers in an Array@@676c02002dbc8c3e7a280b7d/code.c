@@ -15,11 +15,11 @@ int main(){
             if(arr[j]%k==0)
             count++;
         }
-    }
         if (count==2)
         {
             primecount++;
         }
+    }
     printf("%d",primecount);
     return 0;   
 }
