@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main(){
-    int i,j,k,count=0;
+    int i,j,k,count,primecount=0;
     scanf("%d",&i);
-    int arr[i],primecount=0;
+    int arr[i];
     for (j=0;j<i;j++)
     {
         scanf("%d",&arr[j]);
     }
     for (j=0;j<i;j++)
     {
+        count=0;
         for(k=1;k<=arr[j];k++)
         {
             if(arr[j]%k==0)
@@ -17,7 +18,7 @@ int main(){
     }
         if (count==2)
         {
-            primecount=primecount+1;
+            primecount++;
         }
     printf("%d",primecount);
     return 0;   
