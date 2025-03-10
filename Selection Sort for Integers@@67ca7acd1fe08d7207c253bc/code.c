@@ -1,6 +1,6 @@
 int selectionSort(int arr[],int n){
     for(int j=0;j<n;j++){
-        for(int k=0;k<i-1-j;k++)
+        for(int k=0;k<n-1-j;k++)
         if (arr[j]>arr[j+1])
         temp=arr[j];
         arr[j]=arr[j+1];
