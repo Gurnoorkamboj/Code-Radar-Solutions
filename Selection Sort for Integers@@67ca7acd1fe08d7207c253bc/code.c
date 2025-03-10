@@ -1,5 +1,6 @@
 int selectionSort(int arr[],int n){
     for(int j=0;j<n;j++){
+        for(int k=0;k<i-1-j;k++)
         if (arr[j]>arr[j+1])
         temp=arr[j];
         arr[j]=arr[j+1];
@@ -7,7 +8,7 @@ int selectionSort(int arr[],int n){
     }
 }
 int printArray(int arr[],int n){
-    for(int i=0;i<n-1;i++)
+    for(int i=0;i<n;i++)
     {
         printf("%d ",arr[i])
     }
