@@ -13,5 +13,8 @@ int main(){
         arr[k]=arr[k+1];
         arr[k+1]=temp;
     }
+    for (j = 0; j < i; j++) {
+        printf("%d ", arr[j]);
+    }
     return 0;
 }
