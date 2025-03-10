@@ -1,10 +1,4 @@
-#include<stdio.h>
-// int main(){
-//     int n,i,k,temp=0;
-//     scanf("%d",&n);
-//     int arr[n];
-//     for(i=0;i<n;i++)
-//     scanf("%d",&arr[i]);
+
 void bubbleSort(int arr[],int n)
     for(int i=0;i<n-1;i++)
     {
@@ -17,13 +11,11 @@ void bubbleSort(int arr[],int n)
         }
         }
     }
-void printArray(int arr[],int n){
-    for (i = 0; i < n; i++) {
-        printf("%d ", arr[i]);
-        if (i<n-1){
-            printf(" ");
-        }
+void printArray(int arr[],int n)
+{
+    for(int j=0;j<n;j++)
+    {
+        printf("%d",arr[j]);
     }
-    printf("\n");
 }
-    
+ 
