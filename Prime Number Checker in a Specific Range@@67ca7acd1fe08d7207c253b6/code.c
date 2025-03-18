@@ -7,11 +7,11 @@ int isPrime(int num){
     }
 }
 int printPrimesInRange(int a,int b){
-    for(int i=a;i<=b;i++)
+    for(int j=a;j<=b;j++)
     {
-        if (isPrime(i))
+        if (isPrime(j))
         {
-            printf("%d ",i);
+            printf("%d ",j);
         }
     }
 }
