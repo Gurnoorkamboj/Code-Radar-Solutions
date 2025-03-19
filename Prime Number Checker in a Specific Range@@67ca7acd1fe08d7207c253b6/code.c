@@ -8,11 +8,10 @@ int isPrime(int num){
             if (i%j==0)
                 count=count+1;   
         }
-    }
-    if(count==2){
-    found=1;
-    printf("%d ",i);
-}}
+            if(count==2){
+            found=1;
+            printf("%d ",i);
+}}}
 
 if(!found){
     printf("No prime numbers");
