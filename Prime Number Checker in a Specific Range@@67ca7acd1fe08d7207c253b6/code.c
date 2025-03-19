@@ -3,10 +3,10 @@ int isPrime(int num){
         return 0;
     }
     for (int i=1;i<=num;i++){
-        int count=0,found=0;
+        int count,found=0;
         for (int j=1;j<=i;j++){
             if (i%j==0)
-                count++;;   
+                count=count+1;   
         }
     }
     if(count==2){
