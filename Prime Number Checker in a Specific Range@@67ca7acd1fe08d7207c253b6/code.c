@@ -6,12 +6,10 @@ int isPrime(int num){
         int count=0,found=0;
         for (int j=1;j<=i;j++){
             if (i%j==0)
-                count++;
-                found=1;   
+                count++;;   
         }
     }
-
-if(count==2){
+    if(count==2){
     found=1;
     printf("%d ",i);
 }}
