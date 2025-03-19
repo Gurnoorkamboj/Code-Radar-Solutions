@@ -3,23 +3,19 @@ int isPrime(int num){
         return 0;
     }
     for (int i=1;i<=num;i++){
-        int count=0;
+        int count=0,found=0;
         for (int j=1;j<=i;j++){
             if (i%j==0)
-                count++;    
+                count++;
+                found=1;   
         }
     }
 }
-int printPrimesInRange(int a,int b){
-    for(int j=a;j<=b;j++)
-    {
-        if (isPrime(j))
-        {
-            printf("%d ",j);
-        }
-        else
-        {
-            printf("No prime numbers");
-        }
-    }
+if(count==2){
+    found=1;
+    printf("%d ",i);
+}
+
+if(!found){
+    printf("No prime numbers");
 }
