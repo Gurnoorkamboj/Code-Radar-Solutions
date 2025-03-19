@@ -9,8 +9,8 @@ int isPrime(int num){
                 count=count+1;   
         }
             if(count==2){
-            found=1;
             printf("%d ",i);
+            found=1;
 }}}
 
 if(!found){
