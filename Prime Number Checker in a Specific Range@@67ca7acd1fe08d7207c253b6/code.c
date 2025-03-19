@@ -11,8 +11,8 @@ int isPrime(int num){
             printf("%d ",i);
             found=1;
             }
-}}
+}
 
 if(!found){
     printf("No prime numbers");
-}
+}}
