@@ -10,11 +10,11 @@ int isPrime(int num){
                 found=1;   
         }
     }
-}
+
 if(count==2){
     found=1;
     printf("%d ",i);
-}
+}}
 
 if(!found){
     printf("No prime numbers");
