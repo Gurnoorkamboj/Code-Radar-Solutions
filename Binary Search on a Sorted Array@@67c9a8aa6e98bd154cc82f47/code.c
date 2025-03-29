@@ -11,7 +11,7 @@ binarySearch(int arr[],int n,int target){
         else
         {
             l=mid+1;
-            return -1
+            return -1;
         }
     }
 }
