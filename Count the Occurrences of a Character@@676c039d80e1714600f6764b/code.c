@@ -7,7 +7,7 @@ int main(){
     fgets(str,sizeof(str),stdin);
     scanf(" %c",&x);
     for(int i=0;i<strlen(str);i++){
-        if (arr[i]==x){
+        if (str[i]==x){
             count++;
         }
     }
