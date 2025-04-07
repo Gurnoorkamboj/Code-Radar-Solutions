@@ -5,8 +5,8 @@ int main(){
     char x;
     char y;
     fgets(arr,sizeof(arr),stdin);
-    scanf("%c",&x);
-    scanf("%c",&y);
+    scanf(" %c",&x);
+    scanf(" %c",&y);
     for(int i=0;i<strlen(arr);i++){
         if (arr[i]==x){
             arr[i]=y;
