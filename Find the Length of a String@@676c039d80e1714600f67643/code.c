@@ -8,6 +8,6 @@ int main(){
         return 0;
     }
     else{
-    printf("%d",strlen(str));   
+    printf("%d",count);   
     }
 }
