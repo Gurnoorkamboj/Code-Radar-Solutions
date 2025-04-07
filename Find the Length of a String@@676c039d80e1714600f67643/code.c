@@ -6,6 +6,6 @@ int main(){
     // int count=0;
     printf("%d",strlen(str));   
 
-    if (str[]=" "){
+    if (char str[]=" "){
     return 0; }
 }
