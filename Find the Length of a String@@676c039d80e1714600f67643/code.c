@@ -10,4 +10,5 @@ int main(){
     else{
     printf("%d",count);   
     }
+    return 0;
 }
