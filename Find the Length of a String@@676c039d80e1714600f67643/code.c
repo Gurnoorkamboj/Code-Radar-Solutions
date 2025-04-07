@@ -2,7 +2,6 @@
 int main(){
     char str[30];
     scanf("%s",str);
-    int count=0;
-    count=strlen(str);
-    printf("%d",count)    
+    // int count=0;
+    printf("%d",strlen(str));    
 }
