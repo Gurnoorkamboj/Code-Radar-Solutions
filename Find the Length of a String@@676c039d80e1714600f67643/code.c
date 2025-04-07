@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(){
-    char str[30];
+    char str[];
     scanf("%s",str);
     int count=0;
-    count=strlen();
+    count=strlen(str);
     printf("%d",count)    
 }
