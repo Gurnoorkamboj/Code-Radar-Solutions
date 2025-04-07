@@ -3,7 +3,11 @@
 int main(){
     char str[30];
     scanf("%s",str);
-    // int count=0;
+    int count=strlen(str);
+    if (count==0){
+        return 0;
+    }
+    else{
     printf("%d",strlen(str));   
-
+    }
 }
