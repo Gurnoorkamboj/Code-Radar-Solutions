@@ -3,7 +3,8 @@
 int main(){
     char str[30];
     scanf("%s",str);
-    int count=strlen(str);
+    int count;
+    count=strlen(str);
     if (count==0){
         printf("0\n");
     }
