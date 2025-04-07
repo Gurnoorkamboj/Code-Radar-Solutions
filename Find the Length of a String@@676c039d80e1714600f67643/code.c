@@ -7,7 +7,7 @@ int main(){
     int count;
     count=strlen(str);
     if (count==0){
-        printf("0\n")
+        printf("0\n");
         return 0;
     }
     else{
