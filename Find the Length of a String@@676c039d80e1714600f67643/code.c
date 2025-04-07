@@ -5,5 +5,7 @@ int main(){
     scanf("%s",str);
     // int count=0;
     printf("%d",strlen(str));   
+
+    if str[]=" ";
     return 0; 
 }
