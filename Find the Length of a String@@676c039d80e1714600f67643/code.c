@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char str[30];
-    fgets(str,sizeof(str),stdin)
+    fgets(str,sizeof(str),stdin);
     int count;
     count=strlen(str);
     if (count==0){
