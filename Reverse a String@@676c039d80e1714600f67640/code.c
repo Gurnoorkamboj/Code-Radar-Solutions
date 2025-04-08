@@ -4,10 +4,10 @@ int main(){
     char str[100];
     char str1[100];
     fgets(str,sizeof(str),stdin);
-    for(int i=0;i<strlen(str);i++){
-        for(int j=(strlen(str)-1);j>=0;j--){
-            str1[j]=str[i];
-        }
+    s=strlen(str);
+    for(int i=0;i<s;i++){
+        str1[s]=str[i];
+        str[i]=str1[s];
     }
     printf("%s",str1);
 }
