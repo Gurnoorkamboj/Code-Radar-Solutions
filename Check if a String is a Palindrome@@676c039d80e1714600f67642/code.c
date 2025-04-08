@@ -9,7 +9,7 @@ int main(){
        str[i]==str[l-i-1];
        found=1;
     }
-    if (found==1){
+    if (found=1){
         printf("Yes");
     }
     else{
