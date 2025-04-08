@@ -4,7 +4,8 @@ int main(){
     char str[100];
     char ch;
     fgets(str,sizeof(str),stdin);
-    for(int i=0;i<strlen(str);i++){
+    l=strlen(str);
+    for(int i=0;i<l;i++){
         ch=str[i];
         str[i]=str[l-i-1];
         ch=str[l-i-1];
