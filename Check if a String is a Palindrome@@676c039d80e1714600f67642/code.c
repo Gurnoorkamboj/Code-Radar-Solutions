@@ -8,6 +8,7 @@ int main(){
     for(int i=0;i<l/2;i++){
        str[i]!=str[l-i-1];
        found=0;
+       break;
     }
     if (found==1){
         printf("Yes");
