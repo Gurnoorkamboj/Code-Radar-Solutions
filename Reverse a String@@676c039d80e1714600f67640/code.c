@@ -8,7 +8,7 @@ int main(){
     for(int i=0;i<l;i++){
         ch=str[i];
         str[i]=str[l-i-1];
-        ch=str[l-i-1];
+        str[l-i-1]=ch;
     }
     printf("%s",str);
 }
