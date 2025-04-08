@@ -6,8 +6,8 @@ int main(){
     fgets(str,sizeof(str),stdin);
     int l=strlen(str);
     for(int i=0;i<l/2;i++){
-       str[i]==str[l-i-1];
-       found=1;
+       str[i]!=str[l-i-1];
+       found=0;
     }
     if (found=1){
         printf("Yes");
