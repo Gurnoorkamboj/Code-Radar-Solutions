@@ -5,7 +5,7 @@ int main(){
     char ch;
     fgets(str,sizeof(str),stdin);
     int l=strlen(str);
-    for(int i=0;i<l;i++){
+    for(int i=0;i<l/2;i++){
         ch=str[i];
         str[i]=str[l-i-1];
         str[l-i-1]=ch;
