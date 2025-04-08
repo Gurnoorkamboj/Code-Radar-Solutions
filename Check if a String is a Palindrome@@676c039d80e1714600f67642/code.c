@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char str[100];
-    int found=0;
+    int found=1;
     fgets(str,sizeof(str),stdin);
     int l=strlen(str);
     for(int i=0;i<l/2;i++){
@@ -10,7 +10,7 @@ int main(){
        found=0;
        break;
     }
-    if (found==1){
+    if (found){
         printf("Yes");
     }
     else{
