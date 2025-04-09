@@ -7,7 +7,7 @@ int main(){
         printf("0");
         return 0;
     }
-    str[strcspn(str, "\n")] = '\0';
+    // str[strcspn(str, "\n")] = '\0';
     int count;
     count=strlen(str);
     printf("%d",count);   
