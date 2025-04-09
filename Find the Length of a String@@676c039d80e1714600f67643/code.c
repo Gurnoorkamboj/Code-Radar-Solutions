@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char str[30];
-    if (fgets(str,sizeof(str),stdin)=NULL)
+    if (fgets(str,sizeof(str),stdin)==NULL)
     {
         printf("0");
         return 0;
