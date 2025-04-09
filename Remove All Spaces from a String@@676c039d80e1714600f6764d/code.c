@@ -7,6 +7,6 @@ int main(){
         if (str[i]=' '){
             continue;
         }
-    printf("%s",str);
+    printf("%c",str);
     }
 }
